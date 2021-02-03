@@ -1,1 +1,41 @@
-/* 기본값 - 초기화 */
+/* default.css
+    여기는 공통 css 작성
+*/
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style-type: none;
+}
+ol {
+    list-style-position: inside;
+}
+a {
+    text-decoration: none;
+}
+/* 공통 스타일 */
+html {
+    font-size: 16px;
+}
+body {
+    font-family: '나눔고딕', sans-serif;
+}
+
+footer {
+    font-family: 'Sriracha', cursive;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    background: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}

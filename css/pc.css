@@ -3,5 +3,101 @@
     여기는 pc화면
 */
 body {
-    background: yellow;
+    /* background: yellow; */
+}
+
+header {
+    background: #000;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header #gnb {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+header #gnb ul {
+    /* outline: 1px solid red; */
+    display: inline-block;
+}
+header #gnb ul li {
+    display: inline-block;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+header #gnb ul li a {
+    color: #fff;
+}
+
+#visual {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#visual img {
+    width: 100%;
+}
+
+#main {
+    max-width: 1000px;
+    background: #ccc;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 2.5em;
+    font-weight: bold;
+}
+
+#main > .about {
+    width: 50%;
+    height: 400px;
+    background: #fff;
+    padding: 40px 20px 20px 20px;
+    float: left;
+}
+#main > .about small {
+    font-style: italic;
+}
+
+#main > .location {
+    width: 50%;
+    height: 400px;
+    background: #eee;
+    padding: 40px 20px 20px 20px;
+    float: left;
+}
+
+#main h2 {
+    margin-bottom: 1em;
+}
+
+#main .info, 
+aside .info {
+    margin-left: 20px;
+}
+
+aside {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    padding: 40px 20px 40px 20px;
+}
+
+aside > h2 {
+    margin-bottom: 1em;
+}
+
+aside h3 {
+    text-indent: 1em;
+    margin-bottom: 1em;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    background: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
 }

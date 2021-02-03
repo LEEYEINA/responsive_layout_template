@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mq2_link.html</title>
+    <title>반응형 카페 홈페이지</title>
+    <!-- 웹폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
     <!-- 기본 CSS-->
     <link rel="stylesheet" href="./css/defalt.css">
     <!-- pc.css(769px부터) -->
@@ -19,17 +21,55 @@
 </head>
 <body>
     <header>
-        <h1>반응형 레이아웃</h1>
+        <nav id="gnb">
+            <ul>
+                <li><a href="#">카페 소개</a></li>
+                <li><a href="#">오시는 길</a></li>
+                <li><a href="#">이달의 추천</a></li>
+            </ul>
+        </nav>
     </header>
-    <section>
-        <article>
-            <h1>화면 폭을 조정하면 배경색이 바뀝니다</h1>
-            <p>link media 속성으로 스타일 변경</p>
-        </article>
-        <article>
-            <h1>우측 사이드 영역입니다</h1>
-        </article>
+
+    <section id="visual">
+        <img src="./images/title.jpg" alt="visual">
     </section>
+
+    <section id="main">
+        <div class="about">
+            <h2>카페소개</h2>
+            <div class="info">
+            <ul>
+                <li>영업 시간 : 오전 9시 ~ 밤 10시</li>
+                <li>휴무 : 매주 수요일<br>
+                <small>(수요일이 공휴일일 경우 수요일 영업, 다음날 휴무)</small>
+                </li>
+            </ul>
+            </div>
+        </div>
+        <div class="location">
+            <h2>오시는 길</h2>
+            <div class="info">
+            <p>서귀포시 안덕면 사계리 123-000 <br>
+                제주 올레 10코스 산방산 근처
+            </p>
+            </div>
+        </div>
+    </section>
+    <aside>
+        <h2>이 달의 추천</h2>
+        <div class="info">
+        <h3>핸드드립 아이스커피</h3>
+        <ol>
+            <li>1인분 기준으로 서버에 각업을 5조각(한조각의 20cc) 넣고 추출을 시작한다.</li>
+            <li>평상시 보다 원두의 양은 2배 정도 (20g)와 추출액은 없음 포함해서 200cc까지 내린다.</li>
+            <li>아이스 잔에 없음 6~7개 섞어서 시원하게 마신다.</li>
+        </ol>
+        </div>  
+    </aside>
+
+    <footer>
+        <p>My times with coffee</p>
+    </footer>
     
 </body>
 </html>
